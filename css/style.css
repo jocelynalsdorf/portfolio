@@ -1,0 +1,131 @@
+
+/*main site styles==================*/
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+	color: #959595;
+	font-family: 'Gentium Book Basic', serif;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #959595;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+ul {
+	list-style: none;
+
+}
+a {
+	text-decoration: none;
+	color: #959595;
+}
+a:hover {
+	color:#35393c;
+}
+.grid.grid-pad {
+    
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+}  
+
+/*grid styling====================*/
+
+[class*='col-'] {
+  float: left;
+}
+
+.col-1-3 {
+  width: 33.33%;
+  /*background-color: yellow;*/
+}
+
+.col-2-3 {
+  width: 66.66%;
+}
+
+.col-3-3 {
+	width: 100%;
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*='col-'] {
+  padding-right: 20px;
+}
+
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+.grid-pad {
+  padding: 20px 0 20px 20px;
+}
+
+.grid-pad > [class*='col-']:last-of-type {
+  padding-right: 20px;
+}
+
+.grid-pad:first-of-type {
+  padding: 20px 0 0 20px;
+}
+/* styling for header and top nav===============*/
+
+.main-nav-menu-list li{
+	display: inline-block;
+	margin: 0 auto;
+}
+.main-nav-menu-list li:nth-child(n+2):before {
+	content:"| ";
+	font-size: 1em;
+}
+.main-nav-menu {
+	text-align: center;
+
+}
+.main-nav.logo {
+   
+    margin: 0 auto;
+    width: 29%;
+}
+.main-nav-menu h3 {
+	text-transform: lowercase;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.main-nav.logo img {
+    margin: 0 auto;
+    padding: 0;
+}
+ul.main-nav-menu-list {
+   	padding-right: 20px;
+    padding-left: 0;
+    margin:  0;
+}
+/*.col-3-3 {
+    padading: 0;
+    margin: 0;
+
+/* styling for portfolio boxes===============*/
+
+.box {
+background-color: pink;
+height: 300px;
+width: 300px;
+
+}
+
+
+
+
