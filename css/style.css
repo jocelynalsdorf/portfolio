@@ -123,6 +123,7 @@ ul.main-nav-menu-list {
 background-color: light-grey;
 height: 300px;
 width: 300px;
+position: relative;
 
 }
 
@@ -162,6 +163,16 @@ width: 300px;
 	background-color: #c89d85;
 }
 
+.box-icon {
+	color: #fff;
+	width: 200px;
+ 	height: 100px;
+	margin: -50px 0 0 -65px;
+ 	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	padding: 20px;
+}
 
 /* styling for footer===============*/
 
