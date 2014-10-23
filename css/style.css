@@ -76,9 +76,10 @@ a:hover {
   padding-right: 20px;
 }
 
-.grid-pad:first-of-type {
+/*.grid-pad:first-of-type {
   padding: 20px 0 0 20px;
-}
+}*/
+
 /* styling for header and top nav===============*/
 
 .main-nav-menu-list li{
@@ -101,7 +102,6 @@ a:hover {
 .main-nav-menu h3 {
 	text-transform: lowercase;
 	font-family: 'Open Sans', sans-serif;
-
 }
 
 .main-nav.logo img {
@@ -120,10 +120,65 @@ ul.main-nav-menu-list {
 /* styling for portfolio boxes===============*/
 
 .box {
-background-color: pink;
+background-color: light-grey;
 height: 300px;
 width: 300px;
 
+}
+
+.box.box-one {
+	background-color: #d94251;
+}
+
+.box.box-two {
+	background-color: #9eb2b1;
+}
+
+.box.box-three {
+	background-color: #fed363;
+}
+
+.box.box-four {
+	background-color: #cbe86b;
+}
+
+.box.box-five {
+	background-color: #b2d0ce;
+}
+
+.box.box-six {
+	background-color: #ff797c;
+}
+
+.box.box-seven{
+	background-color: #3e4551;
+}
+
+.box.box-eight {
+	background-color: #c7d8ac;
+}
+
+.box.box-nine {
+	background-color: #c89d85;
+}
+
+
+/* styling for footer===============*/
+
+.footer-social-icons {
+	text-align: center;
+	width: 100%;
+	height: 70px;
+
+}
+
+.footer-menu li {
+	display: inline-block;
+}
+
+ul.footer-menu {
+	margin: 0 auto;
+	padding: 0;
 }
 
 
