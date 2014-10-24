@@ -17,17 +17,26 @@ h1, h2, h3, h4, h5 {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 }
+
 ul {
 	list-style: none;
 
 }
+
 a {
 	text-decoration: none;
 	color: #959595;
 }
+
 a:hover {
 	color:#35393c;
 }
+
+ .active a {
+	color: #35393c;
+	font-style: bold;
+}
+
 .grid.grid-pad {
     
     margin: 0 auto;
@@ -129,6 +138,7 @@ position: relative;
 
 .box.box-one {
 	background-color: #d94251;
+	background-size:  cover;
 }
 
 .box.box-two {
@@ -173,6 +183,70 @@ position: relative;
   	left: 50%;
   	padding: 20px;
 }
+
+/*make image show up on hover==========*/
+
+.box.box-one:hover {
+    background-color:  transparent; 
+    background-image: url("../img/cat-one.jpg");
+    background-size: cover;
+}
+
+.box.box-two:hover {
+    background-color:  transparent; 
+    background-image: url("../img/cat-two.jpg");
+    background-size: cover;
+}
+
+.box.box-three:hover {
+    background-color:  transparent; 
+    background-image: url("../img/cat-three.jpg");
+    background-size: cover;
+}
+
+.box.box-four:hover {
+    background-color:  transparent; 
+    background-image: url("../img/cat-four.jpg");
+    background-size: cover;
+}
+
+.box.box-five:hover {
+    background-color:  transparent; 
+    background-image: url("../img/cat-five.jpg");
+    background-size: cover;
+}
+
+.box.box-six:hover {
+    background-color:  transparent; 
+    background-image: url("../img/cat-six.jpg");
+    background-size: cover;
+}
+
+.box.box-seven:hover {
+    background-color:  transparent; 
+    background-image: url("../img/rhino-seven.jpg");
+    background-size: cover;
+}
+
+.box.box-eight:hover {
+    background-color:  transparent; 
+    background-image: url("../img/deer-eight.jpg");
+    background-size: cover;
+}
+
+.box.box-nine:hover {
+    background-color:  transparent; 
+    background-image: url("../img/dog-nine.jpg");
+    background-size: cover;
+
+}
+ 
+
+
+i.fa.fa-binoculars.fa-4x.fa-fw:hover {
+    color:  rgba(255, 255, 255, 0.5);
+}
+
 
 /* styling for footer===============*/
 
