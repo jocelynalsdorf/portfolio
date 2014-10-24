@@ -34,7 +34,7 @@ a:hover {
 
  .active a {
 	color: #35393c;
-	font-style: bold;
+	
 }
 
 .grid.grid-pad {
@@ -266,6 +266,91 @@ ul.footer-menu {
 	padding: 0;
 }
 
+/*contact page form styling=====*/
+
+#contact-form-wrap {
+	width: 600px;
+	margin: 0 auto;
+	background-color: rgba(149, 149, 149, 0.4);
+	min-height: 300px;
+	overflow: hidden;
+	border: none;
+	color:  #35393c;
+	font-family: 'Gentium Book Basic', serif;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 200px;
+}
+#form-top {
+	width: 320px;
+	margin: 0 auto;
+	}
+	#form-top input {
+		width: 320px;
+		margin: 0 0 20px 0;
+		border: 1px solid #959595;
+		height: 45px;
+		text-align: left;
+		background: none;
+		
+		font-size: 1em;
+	}
+	#form-top .input-bg {
+		background-color: #fff;
+		height: 45px;
+		margin-bottom: 10px;
+		position: relative;
+		border: 1px solid #959595;
+	}
+	/*#form-top .active {
+		background: url(images/form-sm-bg.jpg) top left no-repeat transparent;
+	}*/
+#form-bottom {
+	width: 320px;
+	margin: 0 auto;
+	
+	}
+	#form-bottom textarea {
+		width: 320px;
+		height: 238px;
+		display: block;
+		border: 1px solid #959595;
+		background: none;
+		padding: 13px 0 13px 0;
+		font-family: 'Gentium Book Basic', serif;
+		font-size: 1em;
+	}
+	#form-bottom .message-bg {
+		background-color: #fff;
+		height: 238px;
+		border: 1px solid #959595;
+	}
+	
+label {
+	display: block;
+	font-size: 1em;
+	text-indent: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+}
+label.error {
+	position: absolute;
+	top: -16px;
+	right: 49px;
+	padding: 3px;
+	color: #da3939;
+	font-size: 1.0em;
+	text-align: right;
+	font-style: italic;
+	font-weight: normal;
+}
+input.submit-button {
+	float: right;
+	padding-right: 70px;
+}
 
 
 
