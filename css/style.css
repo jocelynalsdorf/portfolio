@@ -122,9 +122,6 @@ ul.main-nav-menu-list {
     padding-left: 0;
     margin:  0;
 }
-/*.col-3-3 {
-    padading: 0;
-    margin: 0;
 
 /* styling for portfolio boxes===============*/
 
@@ -304,9 +301,7 @@ h1 {
 		position: relative;
 		border: 1px solid #959595;
 	}
-	/*#form-top .active {
-		background: url(images/form-sm-bg.jpg) top left no-repeat transparent;
-	}*/
+	
 #form-bottom {
 	width: 320px;
 	margin: 0 auto;
@@ -336,21 +331,100 @@ label {
 	padding-bottom: 5px;
 	
 }
-label.error {
-	position: absolute;
-	top: -16px;
-	right: 49px;
-	padding: 3px;
-	color: #da3939;
-	font-size: 1.0em;
-	text-align: right;
-	font-style: italic;
-	font-weight: normal;
-}
+
+
 input.submit-button {
 	float: right;
 	padding-right: 70px;
 }
 
+/*contact page text=================*/
 
+.contact-blurb {
+	margin: 0 auto;
+	width: 300px;
+}
+
+.contact-text {
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.empty {
+	width: 33%;
+	min-height: 200px;
+}
+
+.fa.fa-arrow-circle-down {
+	color: #d94251;
+		}
+
+.contact-icon {
+	text-align: center;
+	margin-top: 0;
+}
+
+/* single portfolio item page styling=======*/
+
+.single-portfolio-text {
+	background-color: #fff;
+	width: 100%;
+	max-height: 300px;
+}
+
+.single-portfolio-text >h2, h3 {
+	margin: 0;
+	padding-top: 8px;
+}
+.single-portfolio-text > p {
+	padding: 0 6px 4px 8px;
+	margin-bottom: 2px;
+	
+}
+
+.single-portfolio-text > ul {
+padding-left: 20px;
+list-style: square;
+margin-top: 0;
+
+}
+
+.single-portfolio-image-box {
+	background-image: url("../img/single-portfolio-one.jpg");
+	background-repeat: no repeat;
+	background-position: cover;
+	width: 600px;
+	height: 300px;
+	border: 3px solid #959595;
+	
+}
+
+.single-large-img {
+	height: 300px;
+	width: 600px;
+	position: relative;
+	clear: both;
+	padding: 2px;
+}
+
+/*media queries=============================*/
+
+
+
+/*mobile=====================================
+@media (max-width: 400px) { 
+  html { 
+  	background: blue; 
+  }
+[class*='col-'] {
+  float: none;
+}
+}
+
+/* tablet ====================================*
+@media (min-width: 401px) and (max-width: 800px) {
+  html { 
+  	background: green; 
+  } 
+}
 
