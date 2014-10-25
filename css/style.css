@@ -411,17 +411,39 @@ margin-top: 0;
 
 
 
-/*mobile=====================================
-@media (max-width: 400px) { 
+/*mobile=====================================*/
+@media (max-width: 440px) { 
   html { 
-  	background: blue; 
+  	background: #fff; 
   }
 [class*='col-'] {
   float: none;
-}
+  margin:0;
+  padding:0;
+  position: relative;
+  width: 100%;
 }
 
-/* tablet ====================================*
+.box {
+	margin-top: 10px; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+}
+
+.grid.grid-pad {
+	width:100%;
+	height: auto;
+	margin:0;
+	padding: 0;
+}
+
+}
+ 
+
+
+
+/* tablet ====================================*/
 @media (min-width: 401px) and (max-width: 800px) {
   html { 
   	background: green; 
