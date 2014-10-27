@@ -413,15 +413,21 @@ margin-top: 0;
 
 /*mobile=====================================*/
 @media (max-width: 440px) { 
-  html { 
-  	background: #fff; 
+ 
+html { 
+  	background: none; 
   }
+
 [class*='col-'] {
   float: none;
   margin:0;
   padding:0;
   position: relative;
   width: 100%;
+}
+
+.col-3-3 {
+	padding-right: 0;
 }
 
 .box {
@@ -437,7 +443,57 @@ margin-top: 0;
 	margin:0;
 	padding: 0;
 }
+.grid-pad > [class*='col-']:last-of-type {
+	padding-right: 0;
+}
 
+.main-nav.logo {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 0 0 5%;
+}
+
+.main-nav.logo img {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+.main-nav-menu > h3 {
+	font-size: 0.9em;
+	padding-bottom: 2%;
+}
+
+img {
+	max-width: 100%;
+}
+.empty {
+	display: none;
+}
+
+fieldset {
+	width: 100%;
+}
+.form-top-input {
+	text-align: center;
+}
+#contact-form-wrap {
+	width: 100%;
+	margin: 0 auto;
+	padding-left:4%;
+	background-color: #fff;
+}
+fieldset {
+	width: 100%;
+	border: none;
+	margin: 0 auto;
+}
+input.submit-button {
+	padding:0;
+}
+#commentForm {
+	width: 100%;
+	margin: 0 auto;
+}
 }
  
 
@@ -445,8 +501,7 @@ margin-top: 0;
 
 /* tablet ====================================*/
 @media (min-width: 401px) and (max-width: 800px) {
-  html { 
-  	background: green; 
+  
   } 
 }
 
