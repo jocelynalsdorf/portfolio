@@ -236,14 +236,14 @@ position: relative;
 
 .box.box-eight:hover {
     background-color:  transparent; 
-    background-image: url("../img/deer-eight.jpg");
+    background-image: url("../img/hotcold.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .box.box-nine:hover {
     background-color:  transparent; 
-    background-image: url("../img/dog-nine.jpg");
+    background-image: url("../img/streetfighter.png");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -484,8 +484,19 @@ margin-top: 0;
 	background-size: 100%;
 	
 }
-.single-portfolio-image-box-five{
-	background-image: url("../img/candy.png");
+.single-portfolio-image-box-eight{
+	background-image: url("../img/hotcold.png");
+	background-repeat: no-repeat;
+	background-position: contain;
+	width: 600px;
+	height: 300px;
+	border: 3px solid #959595;
+	background-size: 100%;
+	
+}
+
+.single-portfolio-image-box-nine {
+	background-image: url("../img/streetfighter.png");
 	background-repeat: no-repeat;
 	background-position: contain;
 	width: 600px;
