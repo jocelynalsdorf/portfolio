@@ -185,56 +185,67 @@ position: relative;
 
 .box.box-one:hover {
     background-color:  transparent; 
-    background-image: url("../img/cat-one.jpg");
+    background-image: url("../img/haroldapi.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .box.box-two:hover {
     background-color:  transparent; 
-    background-image: url("../img/cat-two.jpg");
+    background-image: url("../img/vox.png");
     background-size: cover;
+    background-repeat: no-repeat;
+
+
 }
 
 .box.box-three:hover {
     background-color:  transparent; 
-    background-image: url("../img/cat-three.jpg");
+    background-image: url("../img/fizzbuzz.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .box.box-four:hover {
     background-color:  transparent; 
-    background-image: url("../img/cat-four.jpg");
-    background-size: cover;
+    background-image: url("../img/toob.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .box.box-five:hover {
     background-color:  transparent; 
-    background-image: url("../img/cat-five.jpg");
+    background-image: url("../img/candy.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .box.box-six:hover {
     background-color:  transparent; 
-    background-image: url("../img/cat-six.jpg");
+    background-image: url("../img/shopping.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .box.box-seven:hover {
     background-color:  transparent; 
-    background-image: url("../img/rhino-seven.jpg");
+    background-image: url("../img/karma.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .box.box-eight:hover {
     background-color:  transparent; 
     background-image: url("../img/deer-eight.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .box.box-nine:hover {
     background-color:  transparent; 
     background-image: url("../img/dog-nine.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 
 }
  
@@ -389,7 +400,7 @@ margin-top: 0;
 
 }
 
-.single-portfolio-image-box {
+.single-portfolio-image-box{
 	background-image: url("../img/haroldapi.png");
 	background-repeat: no-repeat;
 	background-position: contain;
@@ -399,6 +410,91 @@ margin-top: 0;
 	background-size: 100%;
 	
 }
+
+.single-portfolio-image-box-one{
+	background-image: url("../img/haroldapi.png");
+	background-repeat: no-repeat;
+	background-position: contain;
+	width: 600px;
+	height: 300px;
+	border: 3px solid #959595;
+	background-size: 100%;
+	
+}
+.single-portfolio-image-box-two{
+	background-image: url("../img/vox.png");
+	background-repeat: no-repeat;
+	background-position: contain;
+	width: 600px;
+	height: 300px;
+	border: 3px solid #959595;
+	background-size: 100%;
+	
+}
+
+.single-portfolio-image-box-three { 
+	background-image: url("../img/fizzbuzz.png");
+	background-repeat: no-repeat;
+	background-position: contain;
+	width: 600px;
+	height: 300px;
+	border: 3px solid #959595;
+	background-size: 100%;
+	
+}
+
+.single-portfolio-image-box-four{
+	background-image: url("../img/toob.png");
+	background-repeat: no-repeat;
+	background-position: contain;
+	width: 600px;
+	height: 300px;
+	border: 3px solid #959595;
+	background-size: 100%;
+	
+}
+
+.single-portfolio-image-box-five{
+	background-image: url("../img/candy.png");
+	background-repeat: no-repeat;
+	background-position: contain;
+	width: 600px;
+	height: 300px;
+	border: 3px solid #959595;
+	background-size: 100%;
+	
+}
+.single-portfolio-image-box-six{
+	background-image: url("../img/shopping.png");
+	background-repeat: no-repeat;
+	background-position: contain;
+	width: 600px;
+	height: 300px;
+	border: 3px solid #959595;
+	background-size: 100%;
+	
+}
+.single-portfolio-image-box-seven{
+	background-image: url("../img/karma.png");
+	background-repeat: no-repeat;
+	background-position: contain;
+	width: 600px;
+	height: 300px;
+	border: 3px solid #959595;
+	background-size: 100%;
+	
+}
+.single-portfolio-image-box-five{
+	background-image: url("../img/candy.png");
+	background-repeat: no-repeat;
+	background-position: contain;
+	width: 600px;
+	height: 300px;
+	border: 3px solid #959595;
+	background-size: 100%;
+	
+}
+
 
 .single-large-img {
 	height: 300px;
