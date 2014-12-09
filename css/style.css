@@ -515,6 +515,91 @@ margin-top: 0;
 	padding: 2px;
 }
 
+
+/*style for hidden modal*/
+.overlay {
+	width: 100%;
+	height: 1300px;
+	color: #fff;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	z-index: 1000;
+	display: none;
+}
+
+.content-services {
+	color: #fff;
+	background: #c7d8ac;
+	position: relative;
+	height: 50%;
+	width: 50%;
+	border-radius: 3px;
+	top: 15%;
+	margin: 0 auto;
+	border: 1px solid rgba(0,0,0,0.1);
+	padding: 10px;
+}
+
+.content-services h3 {
+	margin: 0;
+	padding: 0.4em;
+	text-align: center;
+	font-size: 2.4em;
+	font-weight: 300;
+	opacity: 0.8;
+	background: rgba(0,0,0,0.1);
+	border-radius: 3px 3px 0 0;
+}
+
+.content-services > div, .modal-box {
+	padding: 15px 10px 30px;
+	margin: 0;
+	font-weight: 300;
+	font-size: 1.15em;
+	height:auto;
+	width: 100%;
+}
+
+.content-services > div p {
+	margin: 0;
+	padding: 10px 0;
+	line-height: 2em;
+	/*text-align: justify;*/
+}
+
+.content-services > div ul {
+	margin-bottom:40px;
+	text-align: center;
+	
+}
+
+.content-services > div ul li {
+	padding: 5px 0;
+	display: inline;
+	line-height: 1.5em;
+}
+
+
+.content-services > div a{
+	font-size: 0.95em;
+	
+	color: #95a5a6;
+	padding: 0.5em 2em;
+	margin-bottom: 50px;
+	border-radius: 3px;
+}
+
+.close {
+	background-color: #fff;
+	border-radius: 3px 3px 0 0;
+	margin: 70px 0 0 175px;
+}
+span {
+	padding-left: 38px;
+}
 /*media queries=============================*/
 
 
